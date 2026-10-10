@@ -1,0 +1,56 @@
+{
+  "brand": "DecoFlowers",
+  "direction": "C2 / Предметный арт-журнал",
+  "assets": [
+    {
+      "asset": "dist/assets/hero-object.webp",
+      "original": "/workspace/generated_images/exec-868a8fba-8c6e-4c68-a4cf-4cbd9b2a0bf2.png",
+      "generator": "image_gen.imagegen",
+      "prompt": "Create a NEW standalone premium product photography foreground asset that matches the upper botanical still life of the reference website mockup. NOT a website, NO typography, NO wordmark, no UI, no buttons, NO text. A tall sculptural warm copper/bronze textured ceramic vase with twisting sinuous body, long natural olive branch with olives and elegant gray-green leaves towering upward, and to its right a lower rounded amber glass vase containing plum burgundy foliage and delicate purple airy stems. Refined photorealism, tactile glazing, real optical refractions, crisp leaf edges. Full objects in frame, upright portrait composition with tall olive vessel center-left and amber vessel lower-right. Both vases sit on minimal cream stone plinths near bottom. VERY IMPORTANT: transparent alpha background behind all objects, no solid backdrop, no checkerboard drawn. Soft contact shadows on plinths, directional daylight from upper left. Photograph suitable to overlay editable giant aubergine DECO FLOWERS letters on light lavender background. Composition 2:3 portrait. Keep branch tallest at top and vases near bottom.",
+      "transparent_background": true,
+      "reference": "/workspace/work/premium-prospects/c-research/designs/DecoFlowers-C-2.png",
+      "inspection": "Viewed generated output; approved visual composition, no text/UI.",
+      "usage": "Illustrative concept artwork. Not claimed to depict DecoFlowers merchandise or completed projects."
+    },
+    {
+      "asset": "dist/assets/editorial.webp",
+      "original": "/workspace/generated_images/exec-fb72e6ec-8f3d-4532-b0ee-034575b0ae79.png",
+      "generator": "image_gen.imagegen",
+      "prompt": "A premium photorealistic editorial botanical still-life asset matching the lower burnt-sienna chapter of reference image. This is NOT a website: absolutely no text, letters, UI, brand, overlays, border. Horizontal wide 3:2 art photography. Burnt terracotta/sienna matte wall background, dramatic natural light with diagonal plant shadows, at right a large pale hand-made textured ceramic vessel cropped naturally at bottom containing oversize sculptural red-burgundy and olive-green anthurium leaves, slender burgundy branches. Powerful physical material realism, intricate veining, slight translucency, medium-format lens atmosphere. Leave the LEFT 45 percent relatively empty soft sienna wall with beautiful subtle shadow so editable headlines can overlay later. Botanical arrangement right dominating two-thirds height, extreme macro editorial art-direction. Color palette warm terracotta, cream, deep maroon, quiet olive. No invented merchandise labels.",
+      "transparent_background": false,
+      "reference": "/workspace/work/premium-prospects/c-research/designs/DecoFlowers-C-2.png",
+      "inspection": "Viewed generated output; approved visual composition, no text/UI.",
+      "usage": "Illustrative concept artwork. Not claimed to depict DecoFlowers merchandise or completed projects."
+    },
+    {
+      "asset": "dist/assets/composition.webp",
+      "original": "/workspace/generated_images/exec-a7d9e194-a4ce-4099-817e-7d1793b4a0e7.png",
+      "generator": "image_gen.imagegen",
+      "prompt": "Standalone luxury botanical still life photograph, no UI no text no logos. Square editorial product composition: abundant graceful white magnolia-like blossoms and creamy small white flower branches, arranged in a matte sculptural cream ceramic vase. Very pale lavender-gray set with seamless floor and wall, refined long diagonal natural daylight shadows. Entire arrangement and vase in frame with generous negative space, tactile petals, tiny stems, realistic botanical details. Muted premium object-art magazine aesthetic, physical materials, medium format photorealism. Pale lilac and cream palette, slight burgundy accent buds. This is an illustrative art visual, no merchandise labels or prices.",
+      "transparent_background": false,
+      "reference": null,
+      "inspection": "Viewed generated output; approved visual composition, no text/UI.",
+      "usage": "Illustrative concept artwork. Not claimed to depict DecoFlowers merchandise or completed projects."
+    },
+    {
+      "asset": "dist/assets/tree.webp",
+      "original": "/workspace/generated_images/exec-195b2318-f9f5-4a3d-95c4-6d418ef657b8.png",
+      "generator": "image_gen.imagegen",
+      "prompt": "Standalone photoreal luxury object editorial photograph, no text, no UI, no logos. Square composition. Full elegant tall olive branch arrangement in a sinuous sculptural bronze-copper ceramic vase, olive berries among long dusty green leaves. Entire vessel and branch comfortably inside frame, on pale-lavender matte seamless photography set floor and wall. Natural directional sunlight left with exquisite soft diagonal shadows. Quiet avant-garde magazine still life, medium format lens, tactile metallic glaze, handmade surface variation, realistic slender trunks and leaves. Refined aubergine, green, burnished bronze, lavender palette. This is a beautiful illustrative concept, no labels or price tags.",
+      "transparent_background": false,
+      "reference": null,
+      "inspection": "Viewed generated output; approved visual composition, no text/UI.",
+      "usage": "Illustrative concept artwork. Not claimed to depict DecoFlowers merchandise or completed projects."
+    },
+    {
+      "asset": "dist/assets/vase.webp",
+      "original": "/workspace/generated_images/exec-8d1e5c4e-ec17-4b7b-af30-f14a1ca70c37.png",
+      "generator": "image_gen.imagegen",
+      "prompt": "Premium photorealistic sculptural object photograph, square editorial still life. Three beautiful artisan vases: one large round transparent amber glass vessel with elegant small dark opening, one low matte plum burgundy clay vase, one slender bronze-brown textured ceramic vase. No flowers, NO plants, NO text, NO UI, NO labels, NO typography. Entire group shown on a pale lavender gray seamless studio floor/wall with intense but elegant directional daylight and long soft shadows. Rich amber optical refractions, tiny real imperfections, matte and glossy tactile contrast, carefully balanced contemporary art magazine composition. Physical photorealism like medium format photography. Space around vessels, full objects visible.",
+      "transparent_background": false,
+      "reference": null,
+      "inspection": "Viewed generated output; approved visual composition, no text/UI.",
+      "usage": "Illustrative concept artwork. Not claimed to depict DecoFlowers merchandise or completed projects."
+    }
+  ]
+}
