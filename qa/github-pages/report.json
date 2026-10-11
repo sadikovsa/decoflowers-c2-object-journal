@@ -1,0 +1,606 @@
+{
+  "date": "2026-10-11T16:08:43.018Z",
+  "checks": [
+    {
+      "slug": "decoflowers-c2-object-journal",
+      "js": true,
+      "width": 1440,
+      "h1Count": 1,
+      "h1Width": 420,
+      "h1Height": 185.203125,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "name": "DecoFlowers — Предметный арт-журнал · Ташкент",
+            "description": "Цветы, формы и интерьерные акценты DecoFlowers в Ташкенте. Готовые композиции, искусственные растения, вазы и кашпо.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-object.webp",
+          "width": "1024",
+          "height": "1536"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/editorial.webp",
+          "width": "1536",
+          "height": "1024"
+        },
+        {
+          "src": "assets/vase.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/composition.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/greenwall.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    },
+    {
+      "slug": "decoflowers-c2-object-journal",
+      "js": true,
+      "width": 390,
+      "h1Count": 1,
+      "h1Width": 245,
+      "h1Height": 123.46875,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "name": "DecoFlowers — Предметный арт-журнал · Ташкент",
+            "description": "Цветы, формы и интерьерные акценты DecoFlowers в Ташкенте. Готовые композиции, искусственные растения, вазы и кашпо.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-object.webp",
+          "width": "1024",
+          "height": "1536"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/editorial.webp",
+          "width": "1536",
+          "height": "1024"
+        },
+        {
+          "src": "assets/vase.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/composition.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/greenwall.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    },
+    {
+      "slug": "decoflowers-c2-object-journal",
+      "js": false,
+      "width": 1440,
+      "h1Count": 1,
+      "h1Width": 420,
+      "h1Height": 185.203125,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "name": "DecoFlowers — Предметный арт-журнал · Ташкент",
+            "description": "Цветы, формы и интерьерные акценты DecoFlowers в Ташкенте. Готовые композиции, искусственные растения, вазы и кашпо.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-object.webp",
+          "width": "1024",
+          "height": "1536"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/editorial.webp",
+          "width": "1536",
+          "height": "1024"
+        },
+        {
+          "src": "assets/vase.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/composition.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/greenwall.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    },
+    {
+      "slug": "decoflowers-c2-object-journal",
+      "js": false,
+      "width": 390,
+      "h1Count": 1,
+      "h1Width": 245,
+      "h1Height": 123.46875,
+      "overflow": false,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+      "robots": "noindex,follow",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Florist",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business",
+            "name": "DecoFlowers",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "telephone": "+998900190901",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "массив Аль-Хорезми-1, 9",
+              "addressLocality": "Ташкент",
+              "addressCountry": "UZ"
+            },
+            "sameAs": [
+              "https://www.instagram.com/decoflowersuz/"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#webpage",
+            "url": "https://sadikovsa.github.io/decoflowers-c2-object-journal/",
+            "name": "DecoFlowers — Предметный арт-журнал · Ташкент",
+            "description": "Цветы, формы и интерьерные акценты DecoFlowers в Ташкенте. Готовые композиции, искусственные растения, вазы и кашпо.",
+            "inLanguage": "ru",
+            "about": {
+              "@id": "https://sadikovsa.github.io/decoflowers-c2-object-journal/#business"
+            }
+          }
+        ]
+      },
+      "images": [
+        {
+          "src": "assets/hero-object.webp",
+          "width": "1024",
+          "height": "1536"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-greenery.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-blue-composition.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/editorial.webp",
+          "width": "1536",
+          "height": "1024"
+        },
+        {
+          "src": "assets/vase.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/composition.webp",
+          "width": "1254",
+          "height": "1254"
+        },
+        {
+          "src": "assets/greenwall.webp",
+          "width": "1448",
+          "height": "1086"
+        },
+        {
+          "src": "assets/brand-bamboo.webp",
+          "width": "640",
+          "height": "1136"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-courtyard.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/real-showroom.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-boxwood.webp",
+          "width": "1400",
+          "height": "1585"
+        },
+        {
+          "src": "assets/brand-white-orchids.webp",
+          "width": "1400",
+          "height": "1750"
+        },
+        {
+          "src": "assets/brand-garden-arch.webp",
+          "width": "720",
+          "height": "1280"
+        },
+        {
+          "src": "assets/brand-orchid-tree.webp",
+          "width": "1350",
+          "height": "1800"
+        },
+        {
+          "src": "assets/brand-chrysanthemums.webp",
+          "width": "1400",
+          "height": "1750"
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

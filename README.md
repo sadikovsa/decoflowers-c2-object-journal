@@ -1,7 +1,17 @@
-# DecoFlowers C2
+# DecoFlowers — Предметный арт-журнал · Ташкент
 
-Standalone static editorial website. Serve dist with an HTTP server. All assets local, no build or CDN. `python -m http.server 4172 --directory dist`.
+GitHub Pages target (publication pending): https://sadikovsa.github.io/decoflowers-c2-object-journal/
 
-Behavior: expanding category shelf, scroll-linked foreground vase and wordmark, terracotta chapter image depth, native menu/inquiry dialogs, editable inquiry copy/download, native FAQ with 280ms progressive motion. Motion can be paused and follows system reduced-motion. No backend transmission.
+Approved DecoFlowers design, with real brand photography, local assets and verified contact information.
 
-Sources in dist/sources.html. Assets rendered as concepts except two actual brand showroom photographs. Brand phone corrected to +998 90 019 09 01. Native HTML content and CSS remain visible without JS; category content all visible in that case. Browser QA delegated to parent agent.
+## Preview locally
+
+Run `python3 -m http.server 4173 --directory dist` and open http://localhost:4173/. Static HTML/CSS/JavaScript; no dependency installation or build required. Check JavaScript with `node --check dist/app.js`.
+
+## GitHub Pages
+
+`main` contains editable sources, design decisions and QA. `gh-pages` contains only the verified `dist/` snapshot. Pages is configured to serve the root of `gh-pages`. Relative asset paths support the repository URL. To publish an update, verify the source, commit `main`, then publish the same `dist` snapshot to `gh-pages`.
+
+The brief dialog prepares editable text for copying/downloading; it does not send inquiries to a server. Brand phone and Instagram links work independently.
+
+See `SEO.md` for indexing policy, `DESIGN.md` for approved design, and `qa/` for verification evidence. Earlier reports describe historical revisions. The original Git history is retained.
