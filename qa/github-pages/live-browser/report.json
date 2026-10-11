@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11T21:10:25.933Z",
+  "checks": [
+    {
+      "mode": {
+        "width": 1440,
+        "js": true,
+        "reduced": false
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 420,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/"
+    },
+    {
+      "mode": {
+        "width": 390,
+        "js": true,
+        "reduced": false
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 245,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/"
+    },
+    {
+      "mode": {
+        "width": 390,
+        "js": false,
+        "reduced": false
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 245,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/"
+    },
+    {
+      "mode": {
+        "width": 390,
+        "js": true,
+        "reduced": true
+      },
+      "overflow": false,
+      "h1Count": 1,
+      "h1Width": 245,
+      "canonical": "https://sadikovsa.github.io/decoflowers-c2-object-journal/"
+    }
+  ],
+  "errors": []
+}

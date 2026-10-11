@@ -1,6 +1,6 @@
 # DecoFlowers — Предметный арт-журнал · Ташкент
 
-GitHub Pages target (publication pending): https://sadikovsa.github.io/decoflowers-c2-object-journal/
+GitHub Pages: https://sadikovsa.github.io/decoflowers-c2-object-journal/
 
 Approved DecoFlowers design, with real brand photography, local assets and verified contact information.
 
