@@ -32,6 +32,7 @@
         gsap.to('.hero-object', {y: mobile ? 35 : 100, x: mobile ? 0 : 28, rotation: mobile ? 0 : 2.4, scale: mobile ? .97 : .93, ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
         gsap.to('.hero-wordmark', {y: mobile ? -15 : -70, ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1.1}});
         gsap.to('.editorial-photo', {scale:1.05, ease:'none',scrollTrigger:{trigger:'.editorial',start:'top bottom',end:'bottom top',scrub:1.5}});
+        document.querySelectorAll('.example-photo').forEach(photo=>gsap.fromTo(photo,{y:25},{y:0,ease:'none',scrollTrigger:{trigger:photo,start:'top bottom',end:'top 75%',scrub:.6}}));
       });
     }
   }
@@ -40,6 +41,7 @@
   let resizeTimer;
   window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(updateMotion, 250); });
   updateMotion();
+  document.fonts.ready.then(refreshGeometry);
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', event => {
       if (event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -82,7 +84,30 @@
   }
   function closeDialog(dialog) { dialog.close(); }
   document.querySelector('.menu-open').addEventListener('click', event => openDialog(menu, event.currentTarget));
-  for (const dialog of [menu, inquiry]) {
+  const gallery = document.getElementById('gallery');
+  const galleryLinks = [...document.querySelectorAll('[data-gallery-image]')];
+  let galleryIndex = 0;
+  function showGallery(index) {
+    galleryIndex = (index + galleryLinks.length) % galleryLinks.length;
+    const link = galleryLinks[galleryIndex];
+    const image = document.getElementById('gallery-image');
+    image.src = link.dataset.galleryImage;
+    image.alt = link.querySelector('img').alt;
+    document.getElementById('gallery-title').textContent = link.dataset.galleryTitle;
+    document.getElementById('gallery-post').href = link.dataset.galleryPost;
+  }
+  galleryLinks.forEach((link,index) => link.addEventListener('click', event => {
+    if(event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();showGallery(index);openDialog(gallery,link);
+  }));
+  document.getElementById('gallery-prev').addEventListener('click',()=>showGallery(galleryIndex-1));
+  document.getElementById('gallery-next').addEventListener('click',()=>showGallery(galleryIndex+1));
+  gallery.addEventListener('keydown',event=>{
+    if(event.key==='ArrowLeft'){event.preventDefault();showGallery(galleryIndex-1)}
+    if(event.key==='ArrowRight'){event.preventDefault();showGallery(galleryIndex+1)}
+  });
+
+  for (const dialog of [menu, inquiry, gallery]) {
     dialog.querySelector('[data-close]').addEventListener('click', () => closeDialog(dialog));
     dialog.addEventListener('close', () => { document.body.classList.remove('modal-open'); if (opener) opener.focus({preventScroll:true}); });
     dialog.addEventListener('click', event => { if (event.target === dialog) { const box=dialog.getBoundingClientRect(); if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)closeDialog(dialog); } });
@@ -124,14 +149,19 @@
   document.querySelectorAll('.faq details').forEach(details => {
     const summary = details.querySelector('summary');
     let animation;
+    let closing = false;
     summary.addEventListener('click', event => {
-      if (paused || reduced.matches || !details.animate) return;
+      if (paused || reduced.matches || !details.animate) {
+        if (animation) { animation.cancel(); animation = null; details.open = !closing; }
+        setTimeout(refreshGeometry,0);return;
+      }
       event.preventDefault();
-      const closing = details.open;
-      if (animation) animation.cancel();
       const from=details.offsetHeight;
-      if(!closing)details.open=true;
-      const to=closing?summary.offsetHeight:details.offsetHeight;
+      closing = animation ? !closing : details.open;
+      if (animation) { animation.cancel(); animation = null; }
+      details.open=true;
+      const border = parseFloat(getComputedStyle(details).borderBottomWidth) || 0;
+      const to=closing?summary.offsetHeight+border:details.offsetHeight;
       details.style.overflow='hidden';
       animation=details.animate({height:[from+'px',to+'px']},{duration:280,easing:'cubic-bezier(.25,.7,.25,1)'});
       animation.onfinish=()=>{if(closing)details.open=false;details.style.overflow='';animation=null;refreshGeometry();};
