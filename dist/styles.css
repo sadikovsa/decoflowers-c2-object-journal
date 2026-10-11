@@ -52,3 +52,15 @@ footer{display:block;padding:18px 0}.footer-inner{display:flex;align-items:cente
 @media(max-width:360px){.hero-copy{max-width:78%}.hero-copy h1{font-size:41px}.shelf button{font-size:24px}.section-intro h2,.showroom h2,.practical h2,.faq h2{font-size:44px}.contact h2{font-size:clamp(42px,13.5vw,49px)}.contact-button{font-size:29px}.example-copy h3,.feature-spread .example-copy h3{font-size:40px}.examples-intro h2{font-size:46px}.faq .details-body{grid-template-columns:1fr}.details-image{height:240px;object-fit:contain;width:100%}.gallery-dialog .dialog-top h2{font-size:25px}.gallery-bottom .text-link{font-size:16px}}
 
 @media(min-width:701px){.hero-object{right:0}}
+
+/* The category strip spans the viewport, independently of the 1200px chapters. */
+.shelf{width:100%;margin-inline:0;grid-template-columns:repeat(4,minmax(0,1fr));padding:0}
+.shelf button:nth-child(n){padding:24px clamp(20px,3vw,48px);font-size:clamp(28px,2.9vw,54px);gap:12px}
+@media(max-width:1000px){.shelf{grid-template-columns:repeat(2,minmax(0,1fr))}.shelf button:nth-child(n){font-size:clamp(24px,3.2vw,34px)}.shelf button:nth-child(3){border-left:0;border-top:1px solid var(--line)}.shelf button:nth-child(4){border-top:1px solid var(--line)}}
+@media(max-width:700px){.shelf button:nth-child(n){padding:18px 14px;font-size:clamp(20px,5.8vw,26px);gap:8px}.shelf button span{font-size:14px}}
+
+/* The opening object-story headline owns the complete content grid. */
+.object-stories .section-intro h2{grid-column:1/-1;width:100%;max-width:none;font-size:clamp(44px,calc((100vw - 2 * var(--gutter)) * .1333),160px)}
+.object-stories .section-intro p{grid-column:2;margin-top:28px}
+@media(max-width:700px){.object-stories .section-intro h2{font-size:52px}.object-stories .section-intro p{grid-column:1;margin-top:0}}
+@media(max-width:360px){.object-stories .section-intro h2{font-size:44px}}

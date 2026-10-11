@@ -51,3 +51,9 @@ Passed: all category open/close states; all FAQ open/close states and rapid reve
 The initial resource check found a missing browser favicon. A local SVG favicon and explicit head link fix it; a fresh browser verified zero console/page errors and zero failed resource requests after the change. Static references and npm run check pass. Public demo/source/AI notices and sources.html are removed; provenance is preserved in source-notes.html and asset-ledger.json outside the served dist directory.
 
 Revision result: passed.
+
+## 2026-10-11 — full-width shelf and object-story heading
+
+Evidence: qa/revision-3/report.json and actual Chromium screenshots. Shelf edges match the viewport at 1920, 1440, 1024, 1001, 1000, 390 and 320px; every button fits within its column, and all four directions open, load their photographs and close. No horizontal overflow or browser errors. Root visually reviewed desktop/mobile shelf and showroom. The showroom has one photograph; its lower facade figure is absent from the DOM.
+
+The confirmed heading «Не просто декор. Точка притяжения.» measures the full 1200px container at 1920/1440 and the available content width at 1024, 700, 390 and 320px. Supporting description is below it; every rendered text line fits. Root inspected desktop/mobile heading screenshots. Local syntax check passes. Revision result: passed.
